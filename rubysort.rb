@@ -371,4 +371,4 @@ answers = CAPITALS.select do |capital|
   drugs_hash[capital.delete(" ").downcase.chars.sort.join.to_sym]
 end
 
-puts x
+puts answers
